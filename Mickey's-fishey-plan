@@ -6,8 +6,9 @@ add port to .env 0
 add add "?ssl=true" 0 ???????
 npm install 0
 npm run reset db 0 
-npm run dev
-install playwright (look at readme!!!)
+npm run dev 0
+install playwright (look at readme!!!): npm init playwright@latest 0
+ 
 add npm script to run playwright
 create testy test
 try the test
