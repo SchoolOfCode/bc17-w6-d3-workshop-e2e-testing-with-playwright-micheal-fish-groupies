@@ -1,19 +1,45 @@
+-tick 1
 understand the code 0
 create database 0 
 create .env 0
 add bd_url to bd_url 0
 add port to .env 0
-add add "?ssl=true" 0 ???????
+add add "?ssl=true" 0 
 npm install 0
-npm run reset db 0 
+npm run reset-db 0 
 npm run dev 0
+
+-tick 2
 install playwright (look at readme!!!): npm init playwright@latest 0
- 
-add npm script to run playwright 0
+add npm script to run playwright "playwright test --ui" 0
+
+-tick 3
 create testy test 0
 try the test 0
-add hhtp req into test
-check test works0
+
+-tick 4
+cd to root of project 0
+npm run dev 0
+check url working in browser not live: http://localhost:5500/ 0
+add hhtp req into test (not https! http) 0
+check test works 0
+
+-tick 5
+locator for the input element (select text box) - `getByRole` or `getByLabel'
+assign input element to var 
+await interaction with eleminet (input some text)
 
 
-not https! http
+
+
+PORT 5500????
+
+
+-after first pull-
+create .env in main dir
+-add bd_url to .env
+-add port to .env
+-"?ssl=true"
+npm install in correct dir
+npm run dev
+install playwright npm init playwright@latest

@@ -3,6 +3,7 @@ import { test, expect } from '@playwright/test';
 
 test('Mickeys test should pass', async ({ page }) => {
     await page.goto('http://localhost:3000')
+    
 })
 
 // test('has title', async ({ page }) => {
