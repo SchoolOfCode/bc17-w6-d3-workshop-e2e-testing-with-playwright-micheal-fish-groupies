@@ -1,0 +1,18 @@
+understand the code 0
+create database 0 
+create .env 0
+add bd_url to bd_url 0
+add port to .env 0
+add add "?ssl=true" 0 ???????
+npm install 0
+npm run reset db 0 
+npm run dev
+install playwright (look at readme!!!)
+add npm script to run playwright
+create testy test
+try the test
+add hhtp req into test
+check test works
+
+
+not https! http
